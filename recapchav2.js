@@ -1,5 +1,5 @@
-function recapchajs() {		
-    var grecaptcharesponse = $('#g-recaptcha').val();
+function recapchajs() {	
+    var grecaptcharesponse = grecaptcha.getResponse();
     var secretAPIkey = $('#g-recapcha-key').val();
       $.ajax({
         type: 'POST',
