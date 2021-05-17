@@ -1,4 +1,5 @@
 function recapchajs() {	
+    alert("call");
     $(function() {
     var grecaptcharesponse = grecaptcha.getResponse();
     var secretAPIkey = $('#g-recapcha-key').val();
