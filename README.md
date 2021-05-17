@@ -2,8 +2,8 @@
 
 ```
 <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer>
-<script src="https://raw.githubusercontent.com/lovetwice1012/recapcha-v2-javascript/main/recapchav2.js">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://raw.githubusercontent.com/lovetwice1012/recapcha-v2-javascript/main/recapchav2.js"></script>
 <form method="post" enctype="multipart/form-data" id="recapchajs">
 <div class="g-recaptcha" data-sitekey="your site key"></div>
 <input id="g-recaptcha-key" type="hidden" value="your secret api key"></input>
