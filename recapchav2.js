@@ -1,6 +1,6 @@
-function recapchajs() {	
-    alert("call");
-    $(function() {
+$(function() {
+    $('#recapchajs').submit(function(){
+    var flag = 0;
     var grecaptcharesponse = grecaptcha.getResponse();
     var secretAPIkey = $('#g-recapcha-key').val();
       $.ajax({
@@ -24,8 +24,8 @@ function recapchajs() {
           flag = 1;
         }
       });
-    });
     if (flag) {
         return false;
     }
-}
+ });
+});
