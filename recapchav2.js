@@ -1,6 +1,6 @@
 function recapchajs() {	
     var grecaptcharesponse = grecaptcha.getResponse();
-    var secretAPIkey = $('#g-recapcha-key').val();
+    var secretAPIkey = $('.g-recapcha-key').val();
       $.ajax({
         type: 'POST',
         url: "https://www.google.com/recaptcha/api/siteverify", 
