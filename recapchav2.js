@@ -15,12 +15,16 @@ function recapchajs() {
             alert("success");
           }else{
             alert("faild");
-            return false;
+            flag = 1;
           }
         },
         error: function() {
           alert("error");
+          flag = 1;
         }
       });
     });
+    if (flag) {
+        return false;
+    }
 }
