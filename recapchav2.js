@@ -1,4 +1,5 @@
 function recapchajs() {	
+    $(function() {
     var grecaptcharesponse = grecaptcha.getResponse();
     var secretAPIkey = $('.g-recapcha-key').val();
       $.ajax({
@@ -21,4 +22,5 @@ function recapchajs() {
           alert("error");
         }
       });
+    });
 }
