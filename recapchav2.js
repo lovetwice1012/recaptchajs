@@ -1,3 +1,4 @@
+alert("called");
 $(function() {
     $('#recapchajs').submit(function(){
     var flag = 0;
