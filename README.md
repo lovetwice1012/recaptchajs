@@ -6,7 +6,7 @@
 <script src="https://lovetwice1012.github.io/recaptcha.js"></script>
 <form method="post" enctype="multipart/form-data" id="recapchajs" onsubmit="return false;">
 <div class="g-recaptcha" data-sitekey="your site key"></div>
-<input id="g-recaptcha-key" type="hidden" value="your secret api key"></input>
+<input id="grecaptchakey" type="hidden" value="your secret api key"></input>
 <input type="submit"></input>
 </form>
 ```
