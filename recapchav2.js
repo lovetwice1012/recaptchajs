@@ -6,7 +6,7 @@ $(function() {
     var secretAPIkey = $('#g-recapcha-key').val();
         $.post("//www.google.com/recaptcha/api/siteverify", {
             secret : secretAPIkey,
-            response : grecaptcharesponse,
+            response : grecaptcharesponse
         }, function(data) {
             data = JSON.parse(data);
           if(data.success){
